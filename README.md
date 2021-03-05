@@ -5,9 +5,7 @@ Click [HERE](https://diana-dai.github.io/E-Commerce-Website/build/index.html) to
 A FAST and ANIMATED e-commerce website demo with Main page, Product page, Shop page and Login Page.
 
 ![image](https://github.com/Diana-Dai/E-Commerce-Website/blob/master/IMGS/index.png)
-![image](https://github.com/Diana-Dai/E-Commerce-Website/blob/master/IMGS/login.png)
-![image](https://github.com/Diana-Dai/E-Commerce-Website/blob/master/IMGS/product.png)
-![image](https://github.com/Diana-Dai/E-Commerce-Website/blob/master/IMGS/shop.png)
+
 
 Built with:
 
