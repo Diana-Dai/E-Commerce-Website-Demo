@@ -20,7 +20,7 @@ module.exports = {
   //     chunks: "all",
   //   },
   // },
-  // plit runtime code into a separate chunk
+  // split runtime code into a separate chunk
   // ?为什么只有在developmen mode下才会分开打包
   optimization: {
     moduleIds: "deterministic",
@@ -86,7 +86,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: "index.html",
       template: "./src/index.html",
-      title: "Caching",
       minify: false,
     }),
     new HtmlWebpackPlugin({
@@ -131,11 +130,11 @@ module.exports = {
       // 只处理大于xx字节 的文件，默认：0
       // threshold: 10240,
       // 示例：一个1024b大小的文件，压缩后大小为768b，minRatio : 0.75
-      minRatio: 0.2, // 默认: 0.8
+      minRatio: 0.8, // 默认: 0.8
     }),
   ],
   // mode: "development",
-  mode: "development",
+  mode: "production",
 
   devServer: {
     contentBase: resolve(__dirname, "build"),
