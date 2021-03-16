@@ -26,6 +26,7 @@
     "workbox-webpack-plugin": "^6.1.1"
   },
   "devDependencies": {
+    "compression-webpack-plugin": "^7.1.2",
     "postcss-loader": "^5.0.0",
     "postcss-preset-env": "^6.7.0",
     "webpack-dev-server": "^3.11.2"
