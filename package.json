@@ -29,6 +29,7 @@
     "compression-webpack-plugin": "^7.1.2",
     "postcss-loader": "^5.0.0",
     "postcss-preset-env": "^6.7.0",
+    "purgecss-webpack-plugin": "^4.0.3",
     "webpack-dev-server": "^3.11.2"
   },
   "scripts": {

@@ -6,6 +6,9 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsWebpackPlugin = require("optimize-css-assets-webpack-plugin");
 const CompressionWebpackPlugin = require("compression-webpack-plugin");
+const PurgecssPlugin = require("purgecss-webpack-plugin");
+const glob = require("glob");
+const path = require("path");
 
 // process.env.NODE_ENV = 'development';
 
@@ -21,7 +24,6 @@ module.exports = {
   //   },
   // },
   // split runtime code into a separate chunk
-  // ?为什么只有在developmen mode下才会分开打包
   optimization: {
     moduleIds: "deterministic",
     runtimeChunk: "single",
@@ -131,6 +133,9 @@ module.exports = {
       // threshold: 10240,
       // 示例：一个1024b大小的文件，压缩后大小为768b，minRatio : 0.75
       minRatio: 0.8, // 默认: 0.8
+    }),
+    new PurgecssPlugin({
+      paths: glob.sync(`${path.join(__dirname, "src")}/**/*`, { nodir: true }),
     }),
   ],
   // mode: "development",

@@ -1,4 +1,5 @@
 import "../css/custom.css";
+import "../css/bootstrap.min.css";
 const bgSwiperPreBtn = document.querySelector(".bg-prev");
 const bgSwiperNexBtn = document.querySelector(".bg-next");
 const bgSwiperPreElm = document.querySelectorAll(".carousel-item")[0];
