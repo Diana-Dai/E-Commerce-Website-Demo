@@ -9,12 +9,12 @@ A FAST and ANIMATED e-commerce website demo with **4 PAGES**:
 - Login Page
 
 
-##WEBSITE LAYOUT
+## WEBSITE LAYOUT
 
 ![image](https://github.com/Diana-Dai/E-Commerce-Website/blob/master/IMGS/index.png)
 
 
-##PERFORMANCE OF THE WEBSITE
+## PERFORMANCE OF THE WEBSITE
 
 ![image](https://github.com/Diana-Dai/E-Commerce-Website-Demo/blob/master/Performance/PageSpeed%20report.png)
 
