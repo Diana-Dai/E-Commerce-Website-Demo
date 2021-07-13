@@ -8,7 +8,13 @@ A FAST and ANIMATED e-commerce website demo with **4 PAGES**:
 - Shop page
 - Login Page
 
+100 SCORE
+PERFORMANCE OF THE WEBSITE
+![image](https://github.com/Diana-Dai/E-Commerce-Website-Demo/blob/master/Performance/PageSpeed%20report.png)
+
+
 ![image](https://github.com/Diana-Dai/E-Commerce-Website/blob/master/IMGS/index.png)
+
 
 
 Built with:
